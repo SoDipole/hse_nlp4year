@@ -1,13 +1,12 @@
-import rake
+import rake_mod
 
 with open("moomins.txt", "r", encoding="utf-8") as f:
     text = f.read()
     
-rake_object = rake.Rake("SmartStoplist.txt", 1, 3)
+rake_object = rake_mod.Rake("SmartStoplist.txt", 1, 3, 1)
 
 keywords = rake_object.run(text)
 
-# 3. print results
 print("Keywords:")
 for word in keywords:
-    print(word)
+    print(word[0], "\t", word[1])
