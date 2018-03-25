@@ -28,27 +28,31 @@ women | 0 | 0
 
 Индекс совпадения топ 15 с оригинальным рейком: 0.133
 
-#### Топ 15 RAKE:
+#### Топ 15 RAKE vs топ 15 RAKE mod:
 
-kw | rating
--- | ------
-friend eva wichman  |  9.0
-red ruby hidden  |  9.0
-fierce work ethic  |  8.0
-moomins characters brand  |  7.7
-strong female characters  |  7.7
-calmly confident moominmamma  |  7.5
-finn family moomintroll  |  7.333333333333334
-female characters  |  4.7
-moomin brand  |  4.5
-quell moomintroll  |  4.333333333333334
-recognise moomintroll  |  4.333333333333334
-characters thingumy  |  4.2
-deep understanding  |  4.0
-necessarily easy  |  4.0
-walt disney  |  4.0
+топ 15 RAKE | топ 15 RAKE mod
+----------- | ---------------
+friend eva wichman | strong female characters
+red ruby hidden | moomins characters brand
+fierce work ethic | signe hammarsten jansson
+strong female characters | post war stories
+moomins characters brand | calmly confident moominmamma
+calmly confident moominmamma | finn family moomintroll
+finn family moomintroll | friend eva wichman
+female characters | red ruby hidden
+moomin brand | fierce work ethic
+recognise moomintroll | long term partner
+quell moomintroll | female characters
+characters thingumy | sophia jansson
+signe hammarsten | characters thingumy
+inseparable creatures | jansson wrote
+moomin artwork | moomin stories
+
+Количество чистых совпадений не изменилось, зато ключевые фразы выглядят более качественными и их порядок более логичным.
+
 
 #### Изменения алгоритма:
 - небольшие изменения в принципе деления на предложения
 - убираются дополнительные типы кавычек
 - лемматизация (WordNetLemmatizer из nltk)
+- изменения в расчёте весов ключевых фраз

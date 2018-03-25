@@ -64,9 +64,9 @@ def separate_words(text, min_word_return_size):
     words = []
     for single_word in splitter.split(text):
         current_word = single_word.strip().lower()
-        print(single_word)
-        single_word = wordnet_lemmatizer.lemmatize(single_word)
-        print("-   ",single_word)
+        
+        current_word = wordnet_lemmatizer.lemmatize(current_word)
+        
         # leave numbers in phrase, but don't count as words, since they tend to invalidate scores of their phrases
         if len(current_word) > min_word_return_size and current_word != '' and not is_number(current_word):
             words.append(current_word)
@@ -79,12 +79,10 @@ def split_sentences(text):
     @param text The text that must be split in to sentences.
     """
     text = re.sub('[“”‘’\-\"]', " ", text)
-    print(text)
     text = re.sub('\s+', " ", text)
-    print(text)
+    
     sentence_delimiters = re.compile(u'[\\[\\]\n.!?,;:\t\\-\\"\\(\\)\u2019\u2013]')
     sentences = sentence_delimiters.split(text)
-    print(sentences)
     return sentences
 
 
@@ -232,8 +230,10 @@ def calculate_word_scores(phraseList):
     word_score = {}
     for item in word_frequency:
         word_score.setdefault(item, 0)
-        word_score[item] = word_degree[item] / (word_frequency[item] * 1.0)  # orig.
-    # word_score[item] = word_frequency[item]/(word_degree[item] * 1.0) #exp.
+        #word_score[item] = word_degree[item] / (word_frequency[item] * 1.0)  # orig.
+        word_score[item] = (word_degree[item] / (word_frequency[item] * 1.0)) + word_frequency[item] * 0.6
+        #word_score[item] = (word_degree[item] * 5)/ (word_frequency[item] * 1.0)
+        #word_score[item] = word_degree[item] * 2 - word_frequency[item]
     return word_score
 
 
@@ -248,6 +248,7 @@ def generate_candidate_keyword_scores(phrase_list, word_score, min_keyword_frequ
         candidate_score = 0
         for word in word_list:
             candidate_score += word_score[word]
+        #keyword_candidates[phrase] = candidate_score / len(phrase.split(" "))
         keyword_candidates[phrase] = candidate_score
     return keyword_candidates
 
