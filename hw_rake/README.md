@@ -6,6 +6,7 @@
 Процент совпадения ручных разметок: 0.277
 
 #### Топ 15 RAKE:
+
 friend eva wichman  |  9.0
 red ruby hidden  |  9.0
 fierce work ethic  |  8.0
