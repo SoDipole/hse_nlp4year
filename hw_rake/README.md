@@ -5,22 +5,42 @@
 
 Процент совпадения ручных разметок: 0.277
 
-топ 15 ручная разметка | топ 15 RAKE | совпадения
----------------------- | ----------- | ----------
-bold decisions | friend eva wichman | 0
-embrace independence | red ruby hidden | 0
-feminist | fierce work ethic | 0
-feminist role model | strong female characters | 0
-fierce work ethic | moomins characters brand | 1
-find power | calmly confident moominmamma | 0
-forbidden love | finn family moomintroll | 0
-lesbian | female characters | 0
-Moomin | moomin brand | 0
-Moominmamma | recognise moomintroll | 0
-Moomintroll | quell moomintroll | 0
-mother | characters thingumy | 0
-strong female characters | signe hammarsten | 1
-Tove Jansson | inseparable creatures | 0
-women | moomin artwork | 0
+#### Топ 15 RAKE:
+friend eva wichman  |  9.0
+red ruby hidden  |  9.0
+fierce work ethic  |  8.0
+moomins characters brand  |  7.7
+strong female characters  |  7.7
+calmly confident moominmamma  |  7.5
+finn family moomintroll  |  7.333333333333334
+female characters  |  4.7
+moomin brand  |  4.5
+quell moomintroll  |  4.333333333333334
+recognise moomintroll  |  4.333333333333334
+characters thingumy  |  4.2
+deep understanding  |  4.0
+necessarily easy  |  4.0
+walt disney  |  4.0
+
+
+топ 15 ручная разметка | RAKE | RAKE mod
+---------------------- | ---- | --------
+bold decisions | 0 | 0
+embrace independence | 0 | 0
+feminist | 0 | 0
+feminist role model | 0 | 0
+fierce work ethic | 1 | 1
+find power | 0 | 0
+forbidden love | 0 | 0
+lesbian | 0 | 0
+moomin | 0 | 0
+moominmamma | 0 | 0
+moomintroll | 0 | 0
+mother | 0 | 0
+strong female characters | 1 | 1
+tove jansson | 0 | 0
+women | 0 | 0
+
 
 Индекс совпадения топ 15 с оригинальным рейком: 0.133
+
