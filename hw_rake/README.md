@@ -7,6 +7,8 @@
 
 #### Топ 15 RAKE:
 
+kw | rating
+-- | ------
 friend eva wichman  |  9.0
 red ruby hidden  |  9.0
 fierce work ethic  |  8.0
@@ -23,6 +25,7 @@ deep understanding  |  4.0
 necessarily easy  |  4.0
 walt disney  |  4.0
 
+#### Сравнения
 
 топ 15 ручная разметка | RAKE | RAKE mod
 ---------------------- | ---- | --------
