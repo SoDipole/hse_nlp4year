@@ -12,3 +12,7 @@
 * Коллокации:
   * [Блокнот с кодом для поиска коллокаций](find_collocations.ipynb)
   * [Список слов с коллокациями (топ 5 биграмм)](w2v_all_clean_collocations.json)
+
+* Эмоциональная окраска:
+  * [алгоритм, определяющий характер эмоциональной окраски лексемы (pos/neg/ambi)](https://github.com/SoDipole/hse_nlp4year/blob/master/project/emotions.py)
+  * [результат его работы](https://github.com/SoDipole/hse_nlp4year/edit/master/project/results_polarity.txt)
