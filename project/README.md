@@ -5,4 +5,5 @@
 
 * [Основной код с применением word2vec](extend_seed_word2vec.ipynb)
 
-* [Итоговый расширенный список слов](w2v_all _clean.txt)
+* [Итоговый расширенный список слов](w2v_all_clean.txt)
+
