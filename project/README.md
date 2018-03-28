@@ -6,7 +6,8 @@
 * Расширение списка:
   * [Блокнот с кодом для расширения списка (word2vec)](extend_seed_word2vec.ipynb)
   * [Расширенный список слов](w2v_all_clean.txt)
-  * [Блокнот с кодом для расширения списка (RAKE)](extend_seed_with_rake.ipynb)
+  * [Блокнот с кодом для поиска оценочных конструкций (RAKE)](extend_seed_with_rake.ipynb)
+  * [Список конструкций](result_rake_multiword.txt)
 
 * Коллокации:
   * [Блокнот с кодом для поиска коллокаций](collocations.ipynb)
