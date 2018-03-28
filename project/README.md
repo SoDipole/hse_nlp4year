@@ -10,5 +10,5 @@
   * [Список конструкций](result_rake_multiword.txt)
 
 * Коллокации:
-  * [Блокнот с кодом для поиска коллокаций](collocations.ipynb)
-  * [Список слов с коллокациями (топ 5 биграмм)](collocations.json)
+  * [Блокнот с кодом для поиска коллокаций](find_collocations.ipynb)
+  * [Список слов с коллокациями (топ 5 биграмм)](w2v_all_clean_collocations.json)
